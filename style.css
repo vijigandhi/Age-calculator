@@ -1,0 +1,52 @@
+body
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 17%;
+    margin-left: 35%;
+    background-color: rgb(170, 170, 182);
+    overflow: hidden;
+}
+
+.container
+{
+    width: 30%;
+    height: 70px;
+    background-color: rgb(83, 83, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    border-radius: 10px;
+}
+
+button
+{
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(42, 42, 87);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input
+{
+    width: 50%;
+    height: 35px;
+    border-radius: 10px;
+}
+
+h1
+{
+    margin-left: 7%;
+}
+
+p
+{
+    font-size: 20px;
+    margin-left: 7%;
+}
